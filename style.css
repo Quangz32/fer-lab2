@@ -1,0 +1,14 @@
+body {
+  background-color: #1f2122;
+}
+
+/* test only */
+.my-nav {
+  /* background-color: white; */
+}
+
+.nav a {
+  color: #666;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

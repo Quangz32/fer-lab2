@@ -17,34 +17,46 @@
     <header class="mt-3">
       <div class="container">
         <nav class="my-nav d-flex justify-content-around align-items-center">
-          <div class="my-nav-left d-flex">
+          <div class="my-nav-left d-flex mr-3">
             <!-- Logo -->
             <a href="index.html" class="my-logo">
               <img src="./images/logo.png" alt="logo" />
             </a>
             <!-- Search -->
-            <div class="my-search ml-4 d-flex align-items-center">
+            <div class="my-search ml-3 d-flex align-items-center">
               <form id="search" action="#">
-                <input type="text" placeholder="Type Something" />
+                <input
+                  class="rounded-pill"
+                  type="text"
+                  placeholder="Type Something"
+                />
                 <i class="fas fa-search" style="color: #666"></i>
               </form>
             </div>
           </div>
           <div class="my-nav-right">
             <!-- Menu -->
-            <ul class="nav">
-              <li><a href="index.html">Home</a></li>
+            <ul class="nav d-flex align-items-center">
+              <li><a class="my-active" href="index.html">Home</a></li>
               <li><a href="browse.html">Browse</a></li>
               <li><a href="details.html">Details</a></li>
               <li><a href="streams.html">Streams</a></li>
               <li>
-                <a href="profile.html"
-                  >Profile
-                  <img
-                    class="rounded-circle"
-                    src="./images/profile-header.jpg"
-                    alt=""
-                /></a>
+                <div
+                  class="my-profile rounded-pill mt-1 d-flex align-items-center"
+                  style="background-color: #27292a; height: 2.5rem"
+                >
+                  <a href="profile.html" class="pr-2"
+                    >Profile
+                    <img
+                      class="rounded-circle ml-2"
+                      height="30"
+                      width="30"
+                      src="./images/profile-header.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

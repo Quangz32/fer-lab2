@@ -2,13 +2,29 @@ body {
   background-color: #1f2122;
 }
 
-/* test only */
-.my-nav {
-  /* background-color: white; */
-}
-
-.nav a {
+.my-nav a {
   color: #666;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+/* My search */
+.my-search {
+  position: relative;
+}
+
+.my-search input {
+  background-color: #27292a;
+  border-radius: 2rem;
+  border: none;
+  height: 2.5rem;
+  padding-left: 2.5rem;
+  caret-color: #666;
+}
+
+.my-search i {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translate(0%, -50%);
 }

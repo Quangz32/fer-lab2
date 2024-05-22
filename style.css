@@ -2,6 +2,37 @@ body {
   background-color: #1f2122;
 }
 
+/* === Util === */
+.my-bg-1 {
+  background-color: #666 !important;
+}
+
+.my-bg-2 {
+  background-color: #27292a !important;
+}
+
+.my-rounded-15 {
+  border-radius: 1.5rem;
+}
+
+.my-rounded-1 {
+  border-radius: 1rem;
+}
+
+.my-rounded-2 {
+  border-radius: 2rem;
+}
+
+.my-color-pink {
+  color: #e75e8d;
+}
+
+.my-bg-pink {
+  background-color: #e75e8d;
+}
+
+/* === NAVIGATION BAR === */
+
 .my-nav a {
   color: #666;
   padding-left: 1rem;
@@ -51,4 +82,27 @@ body {
 
 .my-profile:hover a {
   color: white;
+}
+
+/* === BANNER === */
+.my-banner {
+  background-image: url(./images/banner-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 380px;
+  border-radius: 1.5rem;
+  margin: 1rem 1rem;
+  padding: 5rem;
+}
+
+.my-banner-text {
+  max-width: 60%;
+}
+
+.my-banner-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.my-browse-button {
 }

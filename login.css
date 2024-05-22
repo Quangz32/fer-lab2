@@ -11,3 +11,12 @@
 .my-login-con {
   border-radius: 1.5rem;
 }
+
+.my-facebook {
+  background-color: rgb(59, 89, 152);
+  border-radius: 0.3rem;
+}
+.my-twitter {
+  background-color: #55acee;
+  border-radius: 0.3rem;
+}

@@ -12,6 +12,10 @@ body {
   background-color: #27292a !important;
 }
 
+.my-bg-3 {
+  background-color: #1f2122;
+}
+
 .my-rounded-15 {
   border-radius: 1.5rem;
 }
@@ -90,9 +94,9 @@ body {
   background-image: url(./images/banner-bg.jpg);
   background-position: center center;
   background-size: cover;
-  min-height: 380px;
+  /* min-height: 380px; */
   border-radius: 1.5rem;
-  margin: 1rem 1rem;
+  /* margin: 1rem 1rem; */
   padding: 4rem;
 }
 
@@ -114,4 +118,53 @@ body {
     font-size: 2rem;
     font-weight: 700;
   }
+}
+
+/* === POPULAR GAMES === */
+.my-popular {
+  border-radius: 1.5rem;
+}
+
+.my-popular-header h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .my-popular-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.my-popular-card {
+  /* margin: 10px; */
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  background-color: #27292a;
+  border-radius: 1rem;
+}
+
+.my-popular-card img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.my-popular-card li {
+  list-style-type: none;
+  text-align: right;
+}
+
+.my-popular-card .fa-star {
+  color: yellow;
+}
+.my-popular-card .fa-download {
+  color: darkorchid;
+}
+
+.my-popular-card span {
+  color: #666;
+  display: inline-block;
+  margin-top: 5px;
 }

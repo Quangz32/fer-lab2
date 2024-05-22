@@ -32,6 +32,10 @@ body {
   color: #e75e8d;
 }
 
+/* .my-color-1 {
+  color: #666;
+} */
+
 .my-bg-pink {
   background-color: #e75e8d;
 }
@@ -87,6 +91,10 @@ body {
 
 .my-profile:hover a {
   color: white;
+}
+
+.my-dropdown a:hover {
+  color: #e75e8d !important;
 }
 
 /* === BANNER === */

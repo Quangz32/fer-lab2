@@ -1,0 +1,13 @@
+.my-img-con img {
+  border-radius: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .my-img-con {
+    display: none;
+  }
+}
+
+.my-login-con {
+  border-radius: 1.5rem;
+}

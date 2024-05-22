@@ -3,10 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Quangz's CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="main.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ab096738cb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header></header>
-    <div></div>
+    <header>
+      <div class="container mt-3 p-0">
+        <nav class="my-nav">
+          <!-- Logo -->
+          <a href="index.html" class="my-logo nav-brand">
+            <img class="mb-3" src="./images/logo.png" alt="logo" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container my-rounded-1 my-bg-2 mt-3 p-3 p-md-4 p-lg-5">
+      <div class="row">
+        <div class="col-6 my-img-con">
+          <img src="./images/login_banner_edited.png" class="w-100" />
+        </div>
+        <div class="col-12 col-lg-6 col-md-6 col-sm-6 my-login-con">
+          <div class="text-center pt-5 h-100 my-bg-3 my-rounded-15">
+            <!-- <form action="index.html"></form> -->
+            <h3 class="text-white pb-3 mb-0">Login</h3>
+            <div class="text-white mb-3" style="cursor: pointer">
+              Don't have account?
+              <a href="register.html" class="my-color-pink">Create one </a>
+            </div>
+            <!-- A input  -->
+            <div class="my-search ml-2 mb-2">
+              <div class="position-relative d-inline-block">
+                <input
+                  class="rounded-pill"
+                  type="email"
+                  placeholder="Your email"
+                  style="color: #666"
+                />
+                <i class="fas fa-envelope" style="color: #666"></i>
+              </div>
+            </div>
+            <!-- A input  -->
+            <div class="my-search ml-2">
+              <div class="position-relative d-inline-block">
+                <input
+                  class="rounded-pill my-color-1"
+                  type="password"
+                  placeholder="password"
+                />
+                <i class="fas fa-lock" style="color: #666"></i>
+              </div>
+            </div>
+
+            <div class="row mt-3 w-75 mx-auto">
+              <div class="col-6">
+                <input type="checkbox" class="" />
+                <label for="" class="my-color-1" style="font-size: medium"
+                  >Remember me</label
+                >
+              </div>
+              <div class="col-6">
+                <label class="my-color-1">Forgot password</label>
+              </div>
+            </div>
+
+            <!-- Login button -->
+            <div class="button-con d-flex justify-content-center">
+              <div
+                class="my-browse-button my-bg-pink d-inline-block rounded-pill px-3 py-2 my-4"
+              >
+                <a
+                  href="index.html"
+                  class="mx-3 text-white text-decoration-none font-weight-light"
+                >
+                  Login
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container mb-4 text-center" style="margin-top: 100px">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright © 2048 <a href="#">Cyborg Gaming</a> Company. All rights
+              reserved.
+
+              <br />Design by
+              <a
+                href="https://templatemo.com"
+                target="_blank"
+                title="free CSS templates"
+                >Someone</a
+              >
+              <br />Coded by
+              <a
+                href="https://www.facebook.com/quangz0302"
+                target="_blank"
+                title="free CSS templates"
+                >Quangz</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

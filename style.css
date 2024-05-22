@@ -11,9 +11,16 @@ body {
   text-decoration: none; /* no underline */
 }
 
-.my-nav a:hover,
-.my-active {
+.my-nav li:not(:last-child) {
+  margin: auto 0px; /* align center */
+}
+
+.my-nav a:hover {
   color: #e75e8d;
+}
+
+.my-active {
+  color: #e75e8d !important;
 }
 /* My search */
 .my-search {

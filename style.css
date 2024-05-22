@@ -148,7 +148,6 @@ body {
 
 .my-popular-card img {
   width: 100%;
-  /* height: 110px; */
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
@@ -187,4 +186,17 @@ body {
   color: #666;
   display: inline-block;
   margin-top: 5px;
+}
+
+/* === LIBRARY === */
+.my-library {
+  border-radius: 1.5rem;
+}
+
+/* === FOOTER === */
+footer {
+  color: #666;
+}
+footer a {
+  color: #666;
 }

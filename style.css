@@ -1,5 +1,6 @@
 body {
   background-color: #1f2122;
+  padding: 0rem 1rem;
 }
 
 /* === Util === */
@@ -92,11 +93,7 @@ body {
   min-height: 380px;
   border-radius: 1.5rem;
   margin: 1rem 1rem;
-  padding: 5rem;
-}
-
-.my-banner-text {
-  max-width: 60%;
+  padding: 4rem;
 }
 
 .my-banner-text h1 {
@@ -105,4 +102,16 @@ body {
 }
 
 .my-browse-button {
+  transform: scale(1);
+}
+
+@media (max-width: 576px) {
+  .my-browse-button {
+    transform: scale(0.8) !important;
+  }
+
+  .my-banner-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 }

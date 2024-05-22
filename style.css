@@ -148,9 +148,29 @@ body {
 
 .my-popular-card img {
   width: 100%;
+  /* height: 110px; */
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
+
+@media (min-width: 768px) {
+  .my-popular-card img {
+    height: 192px;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-popular-card img {
+    height: 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-popular-card img {
+    height: 128px;
+  }
+}
+
 .my-popular-card li {
   list-style-type: none;
   text-align: right;
